@@ -25,13 +25,5 @@ p {
 }
 
 #bold {
-	
-}
-
-#olist {
-	
-}
-
-#ulist {
-	
+	font-weight: 700;
 }
