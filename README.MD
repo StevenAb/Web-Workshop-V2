@@ -11,8 +11,10 @@ HTML stands for Hyper Text Markup Language. To understand what this means let's 
 <!DOCTYPE html>
 <html>
   <head>
+
   </head>
   <body>
+    
   </body>
 </html>
 ```
