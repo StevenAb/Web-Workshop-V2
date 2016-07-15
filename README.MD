@@ -1,4 +1,4 @@
-# Building Your First Website (Part One)
+# Building Your First Website
 In this workshop we'll walk you through the step of building your first website. Before we get started coding, we need to set up our environment and understand HTML and CSS.
 
 ## Setting Up Your Environment
