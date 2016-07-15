@@ -16,5 +16,8 @@ HTML stands for Hyper Text Markup Language. To understand what this means let's 
   </body>
 </html>
 ```
+Here we see examples of elements and tags. An element is a part of your webpage. In this instance, you have a head, body, and DOCTYPE element. These do not display anything on the page, instead, they help browsers understand further elements in your HTML.
+
+The DOCTYPE 
 
 ## What is CSS?
