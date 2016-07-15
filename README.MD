@@ -18,7 +18,7 @@ HTML stands for Hyper Text Markup Language. To understand what this means let's 
   </body>
 </html>
 ```
-Here we see examples of elements and tags. An element is a part of your webpage. In this instance, you have a head, body, and DOCTYPE element. These do not display anything on the page, instead, they help browsers understand further elements in your HTML. Tags help denote elements. Each element has a closing tag, which looks like `<element-name>`, and a closing tag, which looks like `</lement-name>`.
+Here we see examples of elements and tags. An element is a part of your webpage. In this instance, you have a head, body, and DOCTYPE element. These do not display anything on the page, instead, they help browsers understand further elements in your HTML. Tags help denote elements. Each element has a closing tag, which looks like `<element-name>`, and a closing tag, which looks like `</element-name>`.
 
 Most elements has both a opening and closing tag. If you fail to include both, your page will not display. We see an exception to the rule with the DOCTYPE tag, which serves a unique purpose. The DOCTYPE tag tells the browser what version of HTML the page is written in. Understanding why we use this to denote the version will be a bit convoluted at first, but be sure to include it at the top of every webpage that you create.
 
