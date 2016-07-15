@@ -1,5 +1,5 @@
 # Building Your First Website
-In this workshop we'll walk you through the step of building your first website. Before we get started coding, we need to set up our environment and understand HTML and CSS.
+In this workshop we'll walk you through the step of building your first website. Before we get started, we need to set up our environment and understand the languages that make up webpages.
 
 ## Setting Up Your Environment
 To build your website you will need a text editor (a place for you to write the HTML and CSS for your website). As opposed to downloading a text editor, we'll be using c9.io, an online editor, so that you can easily continue developing at home.
