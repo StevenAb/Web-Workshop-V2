@@ -22,6 +22,8 @@ h1 {
 p {
 	font-family: Lato, sans-serif;
 	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
 }
 
 a {
@@ -46,6 +48,11 @@ a {
 
 .title {
 	text-align: center;
+}
+
+.list {
+	text-align: center;
+	text-
 }
 
 #italic {
