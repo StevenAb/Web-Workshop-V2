@@ -61,7 +61,7 @@ Let's continue building out site, we'll learn more about the the different parts
   ...
 ```
 
-Heading tags go from `<h1>` to `<h6>`, in order of largest to smallest. This is one way we can display text, another way is through the `<p>`` tag, or the paragraph tag. Let's also add a paragraph tag to the site.
+Heading tags go from '<h1>' to '<h6>', in order of largest to smallest. This is one way we can display text, another way is through the '<p>' tag, or the paragraph tag. Let's also add a paragraph tag to the site.
 
 ```HTML
   ...
@@ -135,7 +135,7 @@ Let's continue building out site, we'll learn more about the the different parts
   ...
 ```
 
-Heading tags go from '<h1>' to '<h6>', in order of largest to smallest. This is one way we can display text, another way is through the '<p>' tag, or the paragraph tag. Let's also add a paragraph tag to the site.
+Heading tags go from `<h1>` to `<h6>`, in order of largest to smallest. This is one way we can display text, another way is through the `<p>` tag, or the paragraph tag. Let's also add a paragraph tag to the site.
 
 ```HTML
   ...
@@ -151,7 +151,7 @@ Now let's reload our web page and view the result. As you can see, the site is d
 
 Great! We’ve finished the HTML for our site, but it looks bland. Let’s go back in and style the website with CSS. We’ll talk more about what CSS is later on, let’s first add a link in our HTML.
 
-Go back to the head, which should only contain a ‘<title>’ tag. Underneath it let’s add a ‘<link>’ tag.
+Go back to the head, which should only contain a `<title>` tag. Underneath it let’s add a `<link>` tag.
 
 ```HTML
   ...
@@ -162,13 +162,13 @@ Go back to the head, which should only contain a ‘<title>’ tag. Underneath i
   ...
 ```
 
-The link element is a unique, there is no closing tag. As the name suggests, it's used to link to another file. However, we do not use this to display links. To display links we use the ‘<a>’ tag, which we learned about before.
+The link element is a unique, there is no closing tag. As the name suggests, it's used to link to another file. However, we do not use this to display links. To display links we use the `<a>` tag, which we learned about before.
 
-Our ‘<link>’ tag also needs the ‘rel’ attribute and the ‘href’ attribute. The ‘rel’ attribute stands for relation, it specifies the relation between the ‘link’ tag and the ‘href’ attribute. In this instance, the link is referencing a stylesheet, which is why the ‘rel’ is ‘stylesheet’.
+Our `<link>` tag also needs the `rel` attribute and the `href` attribute. The `rel` attribute stands for relation, it specifies the relation between the `link` tag and the `href` attribute. In this instance, the link is referencing a stylesheet, which is why the `rel` is `stylesheet`.
 
-Now we need to specify the file we’re accessing. Let’s go into our file structure and create a folder for our CSS files, called “styles.” In that folder add a ‘main.css’ file, which will contain our CSS for both the ‘index.html’ and the ‘about.html’.
+Now we need to specify the file we’re accessing. Let’s go into our file structure and create a folder for our CSS files, called “styles.” In that folder add a `main.css` file, which will contain our CSS for both the `index.html` and the `about.html`.
 
-Now, let’s go into back to our ‘link’ tag and connect the CSS to our HTML. After the ‘href’ attribute, add the file path for ‘main.css’. Since the file is located in the styles folder, the path should read “styles/main.css.” Our link tag should now look like this.
+Now, let’s go into back to our `link` tag and connect the CSS to our HTML. After the `href` attribute, add the file path for `main.css`. Since the file is located in the styles folder, the path should read “styles/main.css.” Our link tag should now look like this.
 
 ```HTML
   ...
@@ -181,12 +181,11 @@ To ensure that our site is working, let’s go into our CSS file and change the 
 
 ```CSS
   h1 {
-    Background-color: red;
+    background-color: red;
   }
-
 ```
 
-Hit save in both your ‘index.html’ and your ‘main.css’ and reload your website. If your webpage has turned an ugly shade of red, congrats! You’ve successfully linked your CSS file to your HTML.
+Save both your `index.html` and your `main.css` and reload your website. If your webpage has turned an ugly shade of red, congrats! You’ve successfully linked your CSS file to your HTML.
 
 Now we’re ready to make our website look nice. First let’s figure out what CSS stands for.
 
@@ -222,4 +221,4 @@ Go to https://www.google.com/fonts#UsePlace:use/Collection:Lato and select the N
 
 Next, scroll down to the section that says “3. Add this code to your website”. Press the @important tab and copy the code.
 
-Open your ‘styles.css’ file in your text editor and paste the code into the document. This imports the font and allows you to use in your web page. Now we can add the font to our elements.
+Open your `styles.css` file in your text editor and paste the code into the document. This imports the font and allows you to use in your web page. Now we can add the font to our elements.
