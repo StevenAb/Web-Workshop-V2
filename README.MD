@@ -204,7 +204,7 @@ To assign an element with a class or id, open your HTML file and simply type cla
   …
 ```
 
-CSS code is organized in blocks referring to a specific attribute. For example, to change the <h1> tag we must first create a block of css code that looks like this:
+CSS code is organized in blocks referring to a specific attribute. For example, to change the `<h1>` tag we must first create a block of css code that looks like this:
 
 ```CSS
   …
@@ -217,7 +217,7 @@ CSS code is organized in blocks referring to a specific attribute. For example, 
 
 Now that we have a block of code for the h1 tag, we can change the font. But first, we have to import the font into our website.
 
-Go to https://www.google.com/fonts#UsePlace:use/Collection:Lato and select the Normal 400, Normal 400 Italic, and Bold 700 options. While selecting everthing will increase your options, it will also affect website load time. So only select what you’re going to use!
+Go to https://www.google.com/fonts#UsePlace:use/Collection:Lato and select the Normal 400, Normal 400 Italic, and Bold 700 options. While selecting everything will increase your options, it will also affect website load time. So only select what you’re going to use!
 
 Next, scroll down to the section that says “3. Add this code to your website”. Press the @important tab and copy the code.
 
