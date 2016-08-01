@@ -61,7 +61,7 @@ Let's continue building out site, we'll learn more about the the different parts
   ...
 ```
 
-Heading tags go from '<h1>' to '<h6>', in order of largest to smallest. This is one way we can display text, another way is through the '<p>' tag, or the paragraph tag. Let's also add a paragraph tag to the site.
+Heading tags go from `<h1>` to `<h6>`, in order of largest to smallest. This is one way we can display text, another way is through the `<p>`` tag, or the paragraph tag. Let's also add a paragraph tag to the site.
 
 ```HTML
   ...
