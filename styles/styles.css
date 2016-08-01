@@ -9,8 +9,12 @@ nav {
 }
 
 nav a {
-    margin-right: 0.2em;
-	margin-left: 1em;
+    margin-right: 0.05em;
+	margin-left: 1.2em;
+}
+
+body {
+	overflow-x: hidden;
 }
 
 h1 {
@@ -35,10 +39,10 @@ a {
 }
 
 .section {
-	padding-top: 250px;
-	padding-bottom: 250px;
-	margin-right: -7px;
-	margin-left: -7px;
+	padding-top: 275px;
+	padding-bottom: 275px;
+	margin-right: -8px;
+	margin-left: -8px;
 }
 
 .black {
@@ -51,8 +55,12 @@ a {
 }
 
 .list {
+	font-family: lato, sans-serif;
+	font-weight: 400;
+	font-size: 15px;
 	text-align: center;
-	text-
+	list-style-position: inside;
+	padding: 0;
 }
 
 #italic {
