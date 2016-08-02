@@ -74,7 +74,7 @@ Heading tags go from **h1** to **h6**, in order of largest to smallest. This is 
 Now let's reload our web page and view the result. As you can see, the site is displaying both a paragraph tag and a heading tag. Heading tags should only be used as the name suggests, like headings.
 
 ## Lists
-Let's add lists to our HTML page. There are two types of lists, *ordered* lists (numbered lists) and **unordered** lists (bulleted lists). Let's go into our **body** 
+Let's add lists to our HTML page. There are two types of lists, *ordered* lists (numbered lists) and **unordered** lists (bulleted lists). Let's go into our **body**
 
 ## Linking our HTML and CSS
 Great! We’ve finished the HTML for our site, but it looks bland. Let’s go back in and style the website with CSS. We’ll talk more about what CSS is later on, let’s first add a link in our HTML.
@@ -92,7 +92,7 @@ Go back to the head, which should only contain a **title** tag. Underneath it le
 
 The link element is a unique, there is no closing tag. As the name suggests, it's used to link to another file. However, we do not use this to display links. To display links we use the **a** tag, which we learned about earlier.
 
-Our **link** tag also needs the *rel* attribute and the *href* attribute. The *rel* attribute stands for relation, it specifies the relation between the *link* tag and the *href* attribute. In this instance, the link is referencing a stylesheet, which is why the value of *rel* is *stylesheet*.
+Our **link** tag also needs the **rel** attribute and the *href* attribute. The **rel** attribute stands for relation, it specifies the relation between the *link* tag and the **href** attribute. In this instance, the link is referencing a stylesheet, which is why the value of **rel** is **stylesheet**.
 
 Now we need to specify the file we’re accessing. Let’s go into our file structure and create a folder for our CSS files, called `styles.` In that folder add a `main.css` file, which will contain our CSS for both the `index.html` and the `about.html`.
 
