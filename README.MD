@@ -66,7 +66,7 @@ Heading tags go from **h1** to **h6**, in order of largest to smallest. This is 
 ```HTML
   ...
     <h1>Hello World!</h1>
-    <p>Hello Again!</p
+    <p>Hello Again!</p>
   </body>
   ...
 ```
@@ -74,7 +74,56 @@ Heading tags go from **h1** to **h6**, in order of largest to smallest. This is 
 Now let's reload our web page and view the result. As you can see, the site is displaying both a paragraph tag and a heading tag. Heading tags should only be used as the name suggests, like headings.
 
 ## Lists
-Let's add lists to our HTML page. There are two types of lists, *ordered* lists (numbered lists) and **unordered** lists (bulleted lists). Let's go into our **body**
+Let's add lists to our HTML page. There are two types of lists, ordered lists (numbered lists) and unordered lists (bulleted lists). Let's go into our **body** and add both kinds of lists.
+
+```HTML
+  ...
+    <p>Hello Again!</p>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+    <ul>
+      <li>Item A</li>
+      <li>Item B</li>
+      <li>Item C</li>
+    </ul>
+  </body>
+  ...
+```
+
+The **ol** tag stands for ordered list, whereas the **ul** tag stands for unordered list. The **li** tag is simply a list element. Let's save and reload our webpage to see the result.
+
+## Navigation
+```HTML
+  ...
+  <body>
+    <nav>
+			<a href="index.html">Index</a>
+			<a href="about.html">About</a>
+		</nav>
+  ...
+```
+
+## Divisions (Divs)
+```HTML
+  ...
+  </nav>
+
+  <div class="segment">
+    <h1 class="title">Hello World!</h1>
+  </div>
+```
+
+## Images
+```HTML
+  ...
+  <div class="segment">
+    <p id="imgheading">Pupper</p>
+    <img src="https://www.rover.com/blog/wp-content/uploads/2014/07/dog-dance-funny.gif" alt="Dog dancing" width="30%">
+  </div>
+```
 
 ## Linking our HTML and CSS
 Great! We’ve finished the HTML for our site, but it looks bland. Let’s go back in and style the website with CSS. We’ll talk more about what CSS is later on, let’s first add a link in our HTML.
