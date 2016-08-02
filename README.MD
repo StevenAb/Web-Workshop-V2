@@ -94,7 +94,7 @@ The link element is a unique, there is no closing tag. As the name suggests, it'
 
 Our **link** tag also needs the **rel** attribute and the *href* attribute. The **rel** attribute stands for relation, it specifies the relation between the *link* tag and the **href** attribute. In this instance, the link is referencing a stylesheet, which is why the value of **rel** is **stylesheet**.
 
-Now we need to specify the file we’re accessing. Let’s go into our file structure and create a folder for our CSS files, called `styles.` In that folder add a `main.css` file, which will contain our CSS for both the `index.html` and the `about.html`.
+Now we need to specify the file we’re accessing. Let’s go into our file structure and create a folder for our CSS files, called `styles`. In that folder add a `main.css` file, which will contain our CSS for both the `index.html` and the `about.html`.
 
 ```HTML
   My Website
