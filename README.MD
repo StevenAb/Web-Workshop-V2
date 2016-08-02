@@ -50,6 +50,7 @@ Notice how the **head** and **body** tags are multiline, whereas the **title** t
 
 The text within the **title** tag doesn't display directly on the page. It displays on the tab of your website, at the very top of your browser.
 
+## Headings and Paragraphs
 Let's continue building out site, we'll learn more about the the different parts of HTML as we continue. Now let's add some visible content on our site. First we'll add a heading tag within the body tags of our site.
 
 ```HTML
@@ -72,8 +73,10 @@ Heading tags go from **h1** to **h6**, in order of largest to smallest. This is 
 
 Now let's reload our web page and view the result. As you can see, the site is displaying both a paragraph tag and a heading tag. Heading tags should only be used as the name suggests, like headings.
 
+## Lists
+Let's add lists to our HTML page. There are two types of lists, *ordered* lists (numbered lists) and **unordered** lists (bulleted lists). Let's go into our **body** 
 
-
+## Linking our HTML and CSS
 Great! We’ve finished the HTML for our site, but it looks bland. Let’s go back in and style the website with CSS. We’ll talk more about what CSS is later on, let’s first add a link in our HTML.
 
 Go back to the head, which should only contain a **title** tag. Underneath it let’s add a **link** tag.
@@ -94,6 +97,7 @@ Our **link** tag also needs the *rel* attribute and the *href* attribute. The *r
 Now we need to specify the file we’re accessing. Let’s go into our file structure and create a folder for our CSS files, called `styles.` In that folder add a `main.css` file, which will contain our CSS for both the `index.html` and the `about.html`.
 
 ```HTML
+  My Website
   |- index.html
   |- about.html
   |
