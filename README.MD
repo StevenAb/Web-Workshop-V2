@@ -1,4 +1,4 @@
-# Building Your First Website
+peng# Building Your First Website
 In this workshop you will walk through the steps of building your first website. Before getting started we need to set up our environment and get a basic grasp of the languages that a webpage uses.
 
 ## Setting Up Your Environment
@@ -135,7 +135,7 @@ Let's continue building out site, we'll learn more about the the different parts
   ...
 ```
 
-Heading tags go from `<h1>` to `<h6>`, in order of largest to smallest. This is one way we can display text, another way is through the `<p>` tag, or the paragraph tag. Let's also add a paragraph tag to the site.
+Heading tags go from **h1** to **h6**, in order of largest to smallest. This is one way we can display text, another way is through the **p** tag, or the paragraph tag. Let's also add a paragraph tag to the site.
 
 ```HTML
   ...
@@ -151,7 +151,7 @@ Now let's reload our web page and view the result. As you can see, the site is d
 
 Great! We’ve finished the HTML for our site, but it looks bland. Let’s go back in and style the website with CSS. We’ll talk more about what CSS is later on, let’s first add a link in our HTML.
 
-Go back to the head, which should only contain a `<title>` tag. Underneath it let’s add a `<link>` tag.
+Go back to the head, which should only contain a **title** tag. Underneath it let’s add a **link** tag.
 
 ```HTML
   ...
@@ -162,13 +162,21 @@ Go back to the head, which should only contain a `<title>` tag. Underneath it le
   ...
 ```
 
-The link element is a unique, there is no closing tag. As the name suggests, it's used to link to another file. However, we do not use this to display links. To display links we use the `<a>` tag, which we learned about before.
+The link element is a unique, there is no closing tag. As the name suggests, it's used to link to another file. However, we do not use this to display links. To display links we use the **a** tag, which we learned about earlier.
 
-Our `<link>` tag also needs the `rel` attribute and the `href` attribute. The `rel` attribute stands for relation, it specifies the relation between the `link` tag and the `href` attribute. In this instance, the link is referencing a stylesheet, which is why the `rel` is `stylesheet`.
+Our **link** tag also needs the *rel* attribute and the *href* attribute. The *rel* attribute stands for relation, it specifies the relation between the *link* tag and the *href* attribute. In this instance, the link is referencing a stylesheet, which is why the value of *rel* is *stylesheet*.
 
-Now we need to specify the file we’re accessing. Let’s go into our file structure and create a folder for our CSS files, called “styles.” In that folder add a `main.css` file, which will contain our CSS for both the `index.html` and the `about.html`.
+Now we need to specify the file we’re accessing. Let’s go into our file structure and create a folder for our CSS files, called `styles.` In that folder add a `main.css` file, which will contain our CSS for both the `index.html` and the `about.html`.
 
-Now, let’s go into back to our `link` tag and connect the CSS to our HTML. After the `href` attribute, add the file path for `main.css`. Since the file is located in the styles folder, the path should read “styles/main.css.” Our link tag should now look like this.
+```HTML
+  |- index.html
+  |- about.html
+  |
+  |- styles
+      |- main.css
+```
+
+Now, let’s go into back to our **link** tag and connect the CSS to our HTML. After the **href** attribute, add the file path for `main.css`. Since the file is located in the styles folder, the value of our path should read 'styles/main.css'. Our link tag should now look like this:
 
 ```HTML
   ...
@@ -187,14 +195,14 @@ To ensure that our site is working, let’s go into our CSS file and change the 
 
 Save both your `index.html` and your `main.css` and reload your website. If your webpage has turned an ugly shade of red, congrats! You’ve successfully linked your CSS file to your HTML.
 
-Now we’re ready to make our website look nice. First let’s figure out what CSS stands for.
+Now we’re ready to make our website look nice, but first we need to understand the basics of CSS.
 
 ##Styling Your HTML with CSS
 CSS stands for Cascading Style Sheets. Once you create the basic structure of your web page, you can use CSS to change the way it looks.
 
 There are three types of css attributes we will be working with: elements, classes, and ids. Elements in css correspond to their HTML counterparts of the same name. Making changes to an element will affect all elements of that name. Classes are used in css when you want to change more than one of an element, but not all of them. Ids are used in css when you only want to change a single element. Making changes to a class or id will only change elements that have that class or id.
 
-To assign an element with a class or id, open your HTML file and simply type class=”classname” or id=”idname” into the opening tag like this:
+To assign an element with a class or id, open your HTML file and simply type `class=”classname"` or `id=”idname”` into the opening tag like this:
 
 ```HTML
   …
@@ -204,7 +212,7 @@ To assign an element with a class or id, open your HTML file and simply type cla
   …
 ```
 
-CSS code is organized in blocks referring to a specific attribute. For example, to change the `<h1>` tag we must first create a block of css code that looks like this:
+CSS code is organized in blocks referring to a specific attribute. For example, to change the **h1** tag we must first create a block of css code that looks like this:
 
 ```CSS
   …
@@ -215,7 +223,7 @@ CSS code is organized in blocks referring to a specific attribute. For example, 
 
 ```
 
-Now that we have a block of code for the h1 tag, we can change the font. But first, we have to import the font into our website.
+Now that we have a block of code for the **h1** tag, we can change the font. But first, we have to import the font into our website.
 
 Go to https://www.google.com/fonts#UsePlace:use/Collection:Lato and select the Normal 400, Normal 400 Italic, and Bold 700 options. While selecting everything will increase your options, it will also affect website load time. So only select what you’re going to use!
 
