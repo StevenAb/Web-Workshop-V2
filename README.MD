@@ -5,7 +5,7 @@ In this workshop you will walk through the steps of building your first website.
 To build your website you will need a text editor (a place for you to write the HTML and CSS for your website). As opposed to downloading a text editor, we'll be using c9.io, an online editor, so that you can easily continue developing at home.
 
 ## Setting Up File Structure
-tbd
+
 
 ## HTML and the Basic Structure of Your Website
 HTML stands for Hyper Text Markup Language. To understand what this means let's build the structure for our webpage.
